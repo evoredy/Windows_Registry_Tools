@@ -1,4 +1,4 @@
-# Welcome to a Windows Registry Tools
+# Welcome to Windows Registry Tools
 
 These utilities allow quick baselining of the Microsoft registry's interesting areas along with some filesystem areas. These are good to run if you develop tools with persistence to see what remains.
 
