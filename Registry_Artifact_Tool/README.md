@@ -1,6 +1,6 @@
 # Welcome to a Windows Registry Parser v0.0.2b
 
-After cleaning malware off of Microsoft OS products for many years in degraded and denied situations, it is important to look at some key areas to see what is modified. In this tool, one can baseline the registry in specific areas, make modifications to the OS, and run it again (after saving the log files) to see what artifacts remain. This is about a 60% solution--in that it will not see everything, but a good coarse report. Basically, if one can see changns here, time to do some better garbage claenup!
+After cleaning malware off of Microsoft OS products for many years in degraded and denied situations, it is important to look at some key areas to see what is modified. In this tool, one can baseline the registry in specific areas, make modifications to the OS, and run it again (after saving the log files) to see what artifacts remain. This is about a 60% solution--in that it will not see everything, but a good coarse report. Basically, if one can see changes here, time to do some better garbage claenup!
 
 Read into the scripts to learn what system areas are of interest. Most malware lives here. If you have a rootkit currently installed, these areas may be masked. The output will be skewed and may allow for an educated reason to do more analysis via dismount. If you have the ability, run this as a [system] user.  
 
