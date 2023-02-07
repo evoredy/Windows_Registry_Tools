@@ -31,7 +31,7 @@ Follow the onscreen menu. You can run it once, make changes, run the second opti
 
 Type:
 ```
-.\60_percent_artifact_finder_v0.3b.ps1
+.\60_percent_artifact_finder_v0.7b.ps1
 ```
 
 ## Changelog v0.0.7b
