@@ -1,4 +1,4 @@
-# Welcome to a Windows Registry Parser v0.0.3b
+# Welcome to a Windows Registry Parser v0.0.7b
 
 After cleaning malware off of Microsoft OS products for many years in degraded and denied situations, it is important to look at some key areas to see what is modified. In this tool, one can baseline the registry in specific areas, make modifications to the OS, and run it again (after saving the log files) to see what artifacts remain. This is about a 60% solution--in that it will not see everything, but a good coarse report. Basically, if one can see changes here, time to do some better garbage claenup!
 
@@ -34,6 +34,20 @@ Type:
 .\60_percent_artifact_finder_v0.3b.ps1
 ```
 
+## Changelog v0.0.7b
+```
+  - removed all CTRL^M chars for easier review on github (actually works now)
+  - changed variable name from bro to evo (deconfliction)
+  - removed autodelete of tmp files and added option to delete from local directory
+  - minor formatting changes / spacing removals
+  - tested on win11
+```
+
+## Changelog v0.0.5b
+```
+  - internal working version for testing
+```
+
 ## Changelog v0.0.3b
 ```
   - removed some CTRL^M chars for easier review on github
@@ -47,5 +61,5 @@ Type:
 ## Known Issues
 ```
   - add more registry and filesystem areas
-  - log file save location
+  - log file save location is fixed to local running directory (of note)
 ```
